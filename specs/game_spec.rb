@@ -20,4 +20,10 @@ class TestGame < MiniTest::Test
   assert_equal('paper wins!', @game1.check_win('paper', 'rock'))
   end
 
+  def test_check_draw
+    assert_equal('Draw!', @game1.check_win('paper', 'paper'))
+  end
+
+
+
 end
