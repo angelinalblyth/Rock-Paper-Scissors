@@ -5,13 +5,17 @@ class Game
     @person2 = person2
   end
 
-  # def rock_wins(person1, person2)
-  #   if person1 == 'rock' && person2 == 'scissor'
-  #     return "#{person1} You win!"
-  #   elsif person2 == 'rock' && person1 == 'scissor'
-  #   return "#{person2} You win!"
-  #   end
-  # end
+  def test_print()
+    return 'This is working'
+  end
+
+
+# puts "Rock, paper, scissors?:"
+# person1 = gets.chomp()
+#
+# puts "Rock, paper, scissors?:"
+# person2 = gets.chomp()
+
   def check_win(person1, person2)
     case person1
     when 'rock'
@@ -35,7 +39,7 @@ class Game
        person2 == 'scissor'
        return "#{person2} wins!"
      end
-   
+
 
 
 

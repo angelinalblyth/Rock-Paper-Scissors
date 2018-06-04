@@ -20,14 +20,4 @@ class TestGame < MiniTest::Test
   assert_equal('paper wins!', @game1.check_win('paper', 'rock'))
   end
 
-  # def test_person1_rock_wins
-  #   assert_equal('rock You win!', @game1.rock_wins('rock', 'scissor'))
-  # end
-  #
-  # def test_person2_rock_wins
-  #   assert_equal('rock You win!', @game1.rock_wins('scissor', 'rock'))
-  # end
-
-
-
 end
