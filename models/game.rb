@@ -20,26 +20,26 @@ class Game
     case person1
     when 'rock'
       if person2 == 'scissor'
-        return "#{person1} wins!"
-      elsif
+        return "Player 1 wins by playing #{person1}!"
+        elsif
         person2 == 'paper'
-        return "#{person2} wins!"
+        return "Player2 wins by playing #{person2}!"
         else return "Draw!"
       end
     when 'scissor'
       if person2 == 'paper'
-        return "#{person1} wins!"
+        return "Player 1 wins by playing #{person1}!"
       elsif
         person2 == 'rock'
-        return "#{person2} wins!"
+        return "Player2 wins by playing #{person2}!"
         else return "Draw!"
       end
     when 'paper'
       if person2 == 'rock'
-        return "#{person1} wins!"
+        return "Player 1 wins by playing #{person1}!"
       elsif
         person2 == 'scissor'
-        return "#{person2} wins!"
+        return "Player2 wins by playing #{person2}!"
         else return "Draw!"
       end
     end
