@@ -30,7 +30,7 @@ class Game
         return "#{person1} wins!"
       else
         person2 == 'rock'
-        return "#{person1} wins!"
+        return "#{person2} wins!"
       end
     when 'paper'
       if person2 == 'rock'
@@ -39,6 +39,7 @@ class Game
        person2 == 'scissor'
        return "#{person2} wins!"
      end
+   else return 'draw'
 
 
 
