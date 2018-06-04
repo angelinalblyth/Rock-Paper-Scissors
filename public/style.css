@@ -2,14 +2,19 @@
   box-sizing: border-box;
   font-family: tahoma;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: 0.5%;
+}
+body {
+  background-color: #43AA8B;
+  color: #B2B09B;
 }
 
 .flex-grid {
   display: flex;
   width: 400px;
   height: 100px;
+  justify-content: centre;
 }
 .col {
   flex: 1;
